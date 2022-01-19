@@ -1,3 +1,32 @@
 header {
   background-color: #141414;
+  text-align: right;
+  padding: 35px;
+}
+
+a {
+  position: relative;
+  text-decoration-line: none;
+  margin-left: 35px;
+  padding: 0 10px;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  background-color: lightgray;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover:after {
+  width: 100%;
 }

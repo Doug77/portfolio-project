@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Header.css';
 
 export default function Header() {
   return (
     <header>
-      <button>a</button>
-      <button>a</button>
-      <button>a</button>
-      <button>a</button>
+      <Link>Sobre</Link>
+      <Link>Habilidades</Link>
+      <Link>Projetos</Link>
+      <Link>Contato</Link>
     </header>
   );
 }

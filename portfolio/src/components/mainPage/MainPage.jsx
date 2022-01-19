@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-import developerImg from '../../img/icon/developer.svg';
+import developerImg from '../../img/icon/developer1.svg';
 
 export default function MainPage() {
   return (
