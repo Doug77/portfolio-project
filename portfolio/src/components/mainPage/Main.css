@@ -3,10 +3,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
+.greeting {
+  font-size: 40px;
+  color: darkgray;
+}
+
+.my-name {
+  font-size: 60px;
+  color: lightgray;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 .caixa {
-  width: 250px;
-  height: 250px;
-  background-color: rgba(255, 0, 0, 0.39);
+  width: 100px;
+  height: 100px;
 }

@@ -5,15 +5,26 @@ import developerImg from '../../img/icon/developer1.svg';
 
 export default function MainPage() {
   return (
-    <main className="main-page">
-      <div>
-        <h3>Olá ..., eu sou!</h3>
-        <h1>Douglas Oliveira</h1>
-        <h3>Desenvolvedor Front-end</h3>
-      </div>
-      <div>
-        <img src={ developerImg } alt="developer-icon" />
-      </div>
-    </main>
+    <>
+      <main className="main-page">
+        <div className="main-content">
+          <div>
+            <span className="greeting">
+              Olá <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" alt="gif-hand" width="100px" />
+              , eu sou
+            </span>
+            <br />
+            <span className="my-name">Douglas Oliveira</span>
+            <br />
+            <span className="greeting">Desenvolvedor Front-end</span>
+          </div>
+          <div>
+            <img src={ developerImg } alt="developer-icon" width="850px"/>
+          </div>
+        </div>
+        <div className='caixa' />
+        <div className='caixa' />
+      </main>
+    </>
   );
 }

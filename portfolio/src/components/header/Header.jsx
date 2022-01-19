@@ -4,11 +4,23 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <header>
-      <Link>Sobre</Link>
-      <Link>Habilidades</Link>
-      <Link>Projetos</Link>
-      <Link>Contato</Link>
-    </header>
+    <>
+      <header>
+        <div>
+          <span className="brackets">{'{'}</span>
+          {'dev-doug'}
+          <span className="brackets">{'}'}</span>
+        </div>
+        <div>
+          <Link>Sobre</Link>
+          <Link>Habilidades</Link>
+          <Link>Projetos</Link>
+          <Link>Contato</Link>
+        </div>
+      </header>
+      <div div className="div-header">
+        <hr/>
+      </div>
+    </>
   );
 }

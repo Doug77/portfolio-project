@@ -3,7 +3,10 @@ header {
   text-align: right;
   padding: 35px;
   padding-right: 100px;
+  padding-left: 100px;
   font-size: 18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
@@ -32,4 +35,21 @@ a:hover {
 
 a:hover:after {
   width: 100%;
+}
+
+.brackets {
+  color: rgb(82, 82, 248);
+}
+
+hr {
+  width: 1000px;
+  border: 1px solid  #333333;
+  background-color: #141414;
+}
+
+.div-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 250px;
 }
