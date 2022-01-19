@@ -5,7 +5,7 @@ import developerImg from '../../img/icon/developer.svg';
 
 export default function MainPage() {
   return (
-    <main>
+    <main className="main-page">
       <div>
         <h3>Olá ..., eu sou!</h3>
         <h1>Douglas Oliveira</h1>
