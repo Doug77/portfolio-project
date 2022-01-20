@@ -10,20 +10,24 @@ export default function Footer() {
       </div>
       <div className="name-footer">|</div>
       <div className="icon-footer">
-        <Link to={{ pathname: "https://github.com/Doug77" }} target="_blank" >
+        <Link className="link-footer" to={{ pathname: "https://github.com/Doug77" }} target="_blank" >
           <img
             src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="github-icon"
             width="30px"
-          /> 
+          />
+          <span className="text-footer">
+            GitHub
+          </span>
         </Link>
-        GitHub
-        <Link to={{ pathname: "https://www.linkedin.com/in/douglas-d-oliveira/" }} target="_blank" >
+        <Link className="link-footer" to={{ pathname: "https://www.linkedin.com/in/douglas-d-oliveira/" }} target="_blank" >
           <img 
             src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin-icon"
             width="30px"
           />
+          <span className="text-footer">
+            LinkedIn
+          </span>
         </Link>
-        LinkedIn
       </div>
     </footer>
   );

@@ -15,6 +15,38 @@ footer {
   color: #4d4d4d;
 }
 
+.text-footer {
+ color: #4d4d4d;
+}
+
 .icon-footer {
-  color: #4d4d4d;
+  display: flex;
+}
+
+.link-footer {
+  display: flex;
+  position: relative;
+  text-decoration-line: none;
+  margin-left: 35px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.link-footer:after {
+  content: "";
+  position: absolute;
+  background-color: #4d4d4d;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.link-footer:hover {
+  transition: 0.3s;
+}
+
+.link-footer:hover:after {
+  width: 100%;
 }
