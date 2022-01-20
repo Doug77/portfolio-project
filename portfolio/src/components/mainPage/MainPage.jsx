@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-import developerImg from '../../img/icon/developer1.svg';
+import developerImg from '../../img/icon/svg.svg';
 
 export default function MainPage() {
   return (
@@ -19,11 +19,9 @@ export default function MainPage() {
             <span className="greeting">Desenvolvedor Front-end</span>
           </div>
           <div>
-            <img src={ developerImg } alt="developer-icon" width="850px"/>
+            <img src={ developerImg } alt="developer-icon" width="800px"/>
           </div>
         </div>
-        <div className='caixa' />
-        <div className='caixa' />
       </main>
     </>
   );

@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 75px;
   padding-bottom: 150px;
 }
 
@@ -21,10 +21,4 @@
 .main-content {
   display: flex;
   justify-content: space-evenly;
-}
-
-
-.caixa {
-  width: 100px;
-  height: 100px;
 }
