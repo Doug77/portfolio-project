@@ -41,7 +41,7 @@ a:hover:after {
   color: rgb(82, 82, 248);
 }
 
-hr {
+.hr-header {
   width: 1000px;
   border: 1px solid  #333333;
   background-color: #141414;

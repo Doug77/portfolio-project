@@ -19,7 +19,7 @@ export default function Header() {
         </div>
       </header>
       <div div className="div-header">
-        <hr/>
+        <hr className="hr-header"/>
       </div>
     </>
   );
