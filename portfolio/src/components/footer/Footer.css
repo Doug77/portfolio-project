@@ -1,3 +1,8 @@
 footer {
   background-color: #141414;
 }
+
+.content-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
