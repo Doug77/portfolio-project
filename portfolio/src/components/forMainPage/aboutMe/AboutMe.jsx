@@ -20,7 +20,8 @@ export default function AboutMe() {
       </div>
       <div className="about-div">
         <img
-          src="https://avatars.githubusercontent.com/u/83235564?v=4" alt="picture-doug"
+          src="https://avatars.githubusercontent.com/u/83235564?v=4"
+          alt="picture-doug"
           className="my-photo"
         />
       </div>

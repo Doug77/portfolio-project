@@ -1,0 +1,19 @@
+.skill-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.skill-list-ul {
+  margin-right: 250px;
+  font-size: 40px;
+}
+
+.title-list-skill {
+  margin-bottom: 35px;
+}
+
+.list-item {
+  list-style: none;
+}

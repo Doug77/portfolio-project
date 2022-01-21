@@ -23,7 +23,8 @@ hr {
 }
 
 .about {
-  font-size: 45px;
+  width: 350px;
+  font-size: 35px;
 }
  
 
@@ -42,6 +43,7 @@ hr {
 }
 
 .my-photo {
+  width: 350px;
   border-radius: 10px;
   box-shadow: 13px 7px 25px #232323;
 }

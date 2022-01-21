@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.css';
 import MyTyped from '../../Typed/MyTyped';
 import AboutMe from '../forMainPage/aboutMe/AboutMe';
+import Skills from '../forMainPage/mySkills/Skills';
 
 import developerImg from '../../img/icon/svg.svg';
 
@@ -27,6 +28,7 @@ export default function MainPage() {
         </div>
       </main>
       <AboutMe />
+      <Skills />
     </>
   );
 }
