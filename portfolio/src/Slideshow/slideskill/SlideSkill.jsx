@@ -2,37 +2,23 @@ import React, { useEffect, useState, useRef } from 'react';
 import './SlideSkill.css';
 
 export default function SlideSkill() {
-  const colors = ["#141414", "#242424"];
-
-  const skillIcon = [
-    "https://img.icons8.com/ultraviolet/35/000000/react--v1.png",
-    "https://img.icons8.com/color/35/000000/redux.png",
-    "https://img.icons8.com/color/35/000000/javascript--v1.png",
-    "https://img.icons8.com/color/35/000000/html-5--v1.png",
-    "https://img.icons8.com/color/35/000000/css3.png",
-    "https://img.icons8.com/color/35/000000/git.png",
-    "https://img.icons8.com/material-outlined/35/000000/github.png",
-  ];
-
-  const skill = [
-    "React",
-    "Redux",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Git",
-    "GitHub",
-  ];
-
+  const colors = ["JavaScript", "HTML" , "CSS", "React", "Redux", "Git", "GitHub"];
   const delay = 3500;
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
+  const [data, setData] = useState([]);
 
   function resetTimeout() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
   }
+
+  useEffect(() => {
+    fetch('http://localhost:3000/db/myDb.json')
+      .then((resp) => resp.json())
+      .then((response) => setData(response))
+  }, []);
 
   useEffect(() => {
     resetTimeout();
@@ -43,39 +29,50 @@ export default function SlideSkill() {
         ),
       delay
     );
-
     return () => {};
   }, [index]);
 
+
   return (
-    <div className="slideshow">
-      <div
-        className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
-        {
-          skill.map((el) => (
-            skillIcon.map((icon, index) => (
-              <div className="slide" key={index} style={{ icon }} >
-                {el}
-                <img src={icon} alt="test" />
-              </div>
-            ))
-          ))
-        }
+    <>
+      <h3 className="skill-title">Habilidades que Possuo ⚡</h3>
+      <div className="slideshow">
+        <div
+          className="slideshowSlider"
+          style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+        >
+          {
+            data.map((el) => {
+              const { id, skill, image } = el;
+              return (
+                <div key={ id } className="slide" >
+                  <div className="div-skill">
+                    <div>
+                      <span className="span-skill"><b>{ skill }</b></span>
+                      <img src={ image } alt={ skill } width="45px" />
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
+        </div>
+        <div className="slideshowDots">
+          {colors.map((_, idx) => (
+            <div
+              key={idx}
+              className={`slideshowDot${index === idx ? " active" : ""}`}
+              onClick={() => {
+                setIndex(idx);
+              }}
+            ></div>
+          ))}
+        </div>
       </div>
-      <div className="slideshowDots">
-        {colors.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
-        ))}
+      <div className="current-knowledge">
+        <h6>Atualmente aprimorando conhecimento em banco de dados SQL, NodeJS e TypeScript para o Back-end. 🌱</h6>
       </div>
-    </div>
+    </>
   );
 }
 
