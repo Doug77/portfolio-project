@@ -22,3 +22,14 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.hr-main {
+  width: 1000px;
+  border: 1px solid  #141414;
+}
+
+.hr-center {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}

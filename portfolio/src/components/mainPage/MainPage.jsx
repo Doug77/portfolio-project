@@ -27,6 +27,9 @@ export default function MainPage() {
           </div>
         </div>
       </main>
+      <div className="hr-center">
+        <hr className='hr-main'/>
+      </div>
       <AboutMe />
       <Skills />
     </>
