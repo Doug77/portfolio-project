@@ -50,3 +50,7 @@ footer {
 .link-footer:hover:after {
   width: 100%;
 }
+
+span {
+  margin-left: 10px;
+}
