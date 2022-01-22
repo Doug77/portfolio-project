@@ -4,7 +4,7 @@ import './Projects.css';
 export default function Projects() {
 
   return (
-    <div className="project-content">
+    <div className="project-content" name="projetos">
       <h1>Projetos que desenvolvi até hoje</h1>
       <div>
         <div>

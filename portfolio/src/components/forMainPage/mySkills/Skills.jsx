@@ -6,7 +6,7 @@ import skillimg from '../../../img/icon/skillimg (1).svg';
 
 export default function Skills() {
   return (
-    <div className="skill-content">
+    <div className="skill-content" name="habilidades">
       <div>
         <img src={ skillimg } alt="skill-icon" width="850px"/>
       </div>
