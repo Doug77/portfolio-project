@@ -8,7 +8,7 @@ export default function Header() {
       <header>
         <div>
           <span className="brackets">{'{'}</span>
-          {'dev-doug'}
+          dev-doug
           <span className="brackets">{'}'}</span>
         </div>
         <div>

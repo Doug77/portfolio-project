@@ -10,7 +10,7 @@ export default function AboutMe() {
       </div>
       <div className="about-div">
         <p className="description-me">
-          Sou <b>Desenvolvedor Web <span className="front-end">Front-End</span></b> e estou em busca de me tornar um <b>Desenvolvedor web <span className="full-stack">Full Stack</span></b>.    
+          Sou <b>Desenvolvedor Web<span className="front-end">Front-End</span></b> e estou em busca de me tornar um <b>Desenvolvedor web <span className="full-stack">Full Stack</span></b>.    
         </p>
         <p className="description-me">
           <b>
