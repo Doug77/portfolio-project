@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll';
 import './Header.css';
 
 export default function Header() {
@@ -8,13 +8,13 @@ export default function Header() {
       <header>
         <div>
           <span className="brackets">{'{'}</span>
-          dev-doug
+            dev-doug
           <span className="brackets">{'}'}</span>
         </div>
         <div>
-          <Link to="#">Sobre</Link>
-          <Link to="#">Habilidades</Link>
-          <Link to="#">Projetos</Link>
+          <Link activeClass="active" to="sobre" spy={true} smooth={true} offset={-200} className='nav-header'>Sobre</Link>
+          <Link activeClass="active" to="habilidades" spy={true} smooth={true} offset={-35} className='nav-header'>Habilidades</Link>
+          <Link activeClass="active" to="projetos" spy={true} smooth={true} offset={-35} className='nav-header'>Projetos</Link>
           <Link to="#">Contato</Link>
         </div>
       </header>
