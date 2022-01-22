@@ -38,7 +38,8 @@ a:hover:after {
 }
 
 .brackets {
-  color: rgb(82, 82, 248);
+  color: #5252f8;
+  margin-left: 0;
 }
 
 .hr-header {

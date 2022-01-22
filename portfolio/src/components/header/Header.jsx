@@ -8,14 +8,14 @@ export default function Header() {
       <header>
         <div>
           <span className="brackets">{'{'}</span>
-          {'dev-doug'}
+          dev-doug
           <span className="brackets">{'}'}</span>
         </div>
         <div>
-          <Link>Sobre</Link>
-          <Link>Habilidades</Link>
-          <Link>Projetos</Link>
-          <Link>Contato</Link>
+          <Link to="#">Sobre</Link>
+          <Link to="#">Habilidades</Link>
+          <Link to="#">Projetos</Link>
+          <Link to="#">Contato</Link>
         </div>
       </header>
       <div div className="div-header">

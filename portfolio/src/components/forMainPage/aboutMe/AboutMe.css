@@ -31,14 +31,25 @@ hr {
   font-size: 30px;
   padding-left: 100px;
   padding-right: 100px;
+  line-height: 45px;
 }
 
 .full-stack {
-  color: #fc6969;
+  color: black;
+  background-color: #fc6969;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
 }
 
 .front-end {
-  color: #5151ee;
+  color: black;
+  background-color: #5151ee;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
 }
 
 .my-photo {

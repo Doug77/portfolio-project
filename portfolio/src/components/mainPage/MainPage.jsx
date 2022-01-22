@@ -3,8 +3,9 @@ import './Main.css';
 import MyTyped from '../../Typed/MyTyped';
 import AboutMe from '../forMainPage/aboutMe/AboutMe';
 import Skills from '../forMainPage/mySkills/Skills';
+import Projects from '../forMainPage/myProjects/Projects';
 
-import developerImg from '../../img/icon/svg.svg';
+import developerImg from '../../img/icon/codding.svg';
 
 export default function MainPage() {
   return (
@@ -32,6 +33,7 @@ export default function MainPage() {
       </div>
       <AboutMe />
       <Skills />
+      <Projects />
     </>
   );
 }
