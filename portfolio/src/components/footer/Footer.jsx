@@ -5,10 +5,6 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer className="content-footer">
-      <div className="name-footer">
-        Desenvolvido por Douglas Oliveira
-      </div>
-      <div className="name-footer">|</div>
       <div className="icon-footer">
         <Link className="link-footer" to={{ pathname: "https://github.com/Doug77" }} target="_blank" >
           <img
@@ -28,6 +24,9 @@ export default function Footer() {
             LinkedIn
           </span>
         </Link>
+      </div>
+      <div className="name-footer">
+        Desenvolvido por Douglas Oliveira
       </div>
     </footer>
   );

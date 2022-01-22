@@ -7,12 +7,14 @@ export default function Header() {
     <>
       <header>
         <div>
-          <span className="brackets">{'{'}</span>
-          dev-doug
-          <span className="brackets">{'}'}</span>
+          <Link to="/">
+            <span className="brackets">{'{'}</span>
+              dev-doug
+            <span className="brackets">{'}'}</span>
+          </Link>
         </div>
         <div>
-          <Link to="#">Sobre</Link>
+          <Link to="/#section1" className='nav-header'>Sobre</Link>
           <Link to="#">Habilidades</Link>
           <Link to="#">Projetos</Link>
           <Link to="#">Contato</Link>
