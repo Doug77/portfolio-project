@@ -5,7 +5,7 @@ import AboutMe from '../forMainPage/aboutMe/AboutMe';
 import Skills from '../forMainPage/mySkills/Skills';
 import Projects from '../forMainPage/myProjects/Projects';
 
-import developerImg from '../../img/icon/codding (1).svg';
+import developerImg from '../../img/icon/codding.svg';
 
 export default function MainPage() {
   return (
