@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { arrayData } from "../../data/db";
 import './SlideSkill.css';
 
 export default function SlideSkill() {
@@ -15,9 +16,7 @@ export default function SlideSkill() {
   }
 
   useEffect(() => {
-    fetch('http://localhost:3000/db/myDb.json')
-      .then((resp) => resp.json())
-      .then((response) => setData(response))
+    setData(arrayData)
   }, []);
 
   useEffect(() => {
@@ -58,7 +57,7 @@ export default function SlideSkill() {
               })
             }
           </div>
-      </div>
+        </div>
         <div className="slideshowDots">
           {colors.map((_, idx) => (
             <div
@@ -67,7 +66,8 @@ export default function SlideSkill() {
               onClick={() => {
                 setIndex(idx);
               }}
-            ></div>
+            >
+            </div>
           ))}
         </div>
       </div>
