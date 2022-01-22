@@ -35,28 +35,30 @@ export default function SlideSkill() {
 
   return (
     <>
-      <h3 className="skill-title">Habilidades que Possuo ⚡</h3>
-      <div className="slideshow">
-        <div
-          className="slideshowSlider"
-          style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-        >
-          {
-            data.map((el) => {
-              const { id, skill, image } = el;
-              return (
-                <div key={ id } className="slide" >
-                  <div className="div-skill">
-                    <div>
-                      <span className="span-skill"><b>{ skill }</b></span>
-                      <img src={ image } alt={ skill } width="45px" />
+      <div className="container-slide">
+        <h3 className="skill-title">Habilidades que Possuo ⚡</h3>
+        <div className="slideshow">
+          <div
+            className="slideshowSlider"
+            style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+          >
+            {
+              data.map((el) => {
+                const { id, skill, image } = el;
+                return (
+                  <div key={ id } className="slide" >
+                    <div className="div-skill">
+                      <div className="div-content">
+                        <span className="span-skill"><b>{ skill }</b></span>
+                        <img src={ image } alt={ skill } width="45px" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              )
-            })
-          }
-        </div>
+                )
+              })
+            }
+          </div>
+      </div>
         <div className="slideshowDots">
           {colors.map((_, idx) => (
             <div

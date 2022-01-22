@@ -15,11 +15,8 @@
   display: inline-block;
   height: 200px;
   width: 100%;
-  background-color: #333333;
+  background-color: #141414;
   background-clip: content-box;
-  border-radius: 13px;
-  /* box-shadow: inset 0 0 0 10px #141414; */
-  box-shadow: inset 0 0 5px 5px #141414;
 }
 
 .slideshowDots {
@@ -62,4 +59,14 @@
 
 .current-knowledge {
   margin-top: 55px;
+}
+
+.div-content {
+  border-bottom: 5px dotted lightgray;
+}
+
+.container-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
