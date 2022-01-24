@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { arrayDataProjects } from '../../../data/projects';
 import './Projects.css';
 
-import codingProject from '../../../img/icon/codingProject.svg';
+import codingProject from '../../../img/icon/codingmyproject.svg';
 
 export default function Projects() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 import SlideSkill from '../../../Slideshow/slideskill/SlideSkill';
 
-import skillimg from '../../../img/icon/skillimg (1).svg';
+import skillimg from '../../../img/icon/thinkcode.svg';
 
 export default function Skills() {
   return (
