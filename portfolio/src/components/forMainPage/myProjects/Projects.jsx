@@ -12,7 +12,7 @@ export default function Projects() {
         <h1 className="header-content-project">Projetos que desenvolvi até hoje 👨‍💻</h1>
         {
           arrayDataProjects.map((el, index) => {
-            const {description, project, link } = el;
+            const { description, project, link } = el;
             return (
               <div className="div-project" key={ index }>
                 <h3 className="title-project">{ project }</h3>
