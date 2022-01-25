@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+  .my-typed-animation {
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 35px;
+    width: 100%;
+  }
+  
+  span {
+    color: lightgray;
+  }
+}

@@ -15,12 +15,16 @@
   }
   
   .greeting {
-    font-size: 40px;
+    font-size: 20px;
     color: darkgray;
+  }
+
+  .greeting-hand {
+    width: 40px;
   }
   
   .my-name {
-    font-size: 60px;
+    font-size: 45px;
     color: lightgray;
   }
   
@@ -41,7 +45,9 @@
   }
 
   .div-content-main {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
 }

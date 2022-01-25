@@ -15,7 +15,7 @@ export default function MainPage() {
         <div className="main-content">
           <div className="div-content-main">
             <span className="greeting">
-              Olá <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" alt="gif-hand" width="100px" />
+              Olá <img className="greeting-hand" src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" alt="gif-hand" width="100px" />
               , eu sou
             </span>
             <br />
