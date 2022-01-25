@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { arrayDataProjects } from '../../../data/projects';
+import { arrayDataProjects } from '../../data/projectList';
 import './Projects.css';
 
-import codingProject from '../../../img/icon/codingmyproject.svg';
+export default function ProjectsPage() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-export default function Projects() {
   return (
-    <div className="project-content" name="projetos">
+    <div className="section-projects">
       <div>
         <h1 className="header-content-project">Projetos que desenvolvi até hoje 👨‍💻</h1>
         {
@@ -24,10 +27,6 @@ export default function Projects() {
             )
           })
         }
-        <Link to="/projects">Ver todos projetos...</Link>
-      </div>
-      <div className="img-content">
-        <img src={ codingProject } alt="icon-developer"  width="700px"/>
       </div>
     </div>
   );

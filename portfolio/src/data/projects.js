@@ -2,7 +2,7 @@ export const arrayDataProjects = [
   {
     id: 1,
     project: "Projeto Trybe Wallet",
-    link: "https://github.com/tryber/sd-015-a-project-trybewallet",
+    link: "https://github.com/Doug77/Trybe-Wallet",
     description: "Neste projeto foi desenvolvido uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário deverá ser capaz de Adicionar, remover e editar um gasto, Visualizar uma tabelas com seus gastos, Visualizar o total de gastos convertidos para uma moeda de escolha."
   },
   {
@@ -20,7 +20,7 @@ export const arrayDataProjects = [
   {
     id: 4,
     project: "Projeto Tryunfo",
-    link: "https://github.com/tryber/sd-015-a-project-tryunfo",
+    link: "https://github.com/Doug77/projeto-tryunfo",
     description: "Nesse projeto foi desenvolvido uma aplicação em React com manipulação de estados em classes. Essa aplicação simula um jogo de Super Trunfo com a criação e exibição das cartas do seu baralho."
   }
 ];
