@@ -1,12 +1,10 @@
 @media (max-width: 400px) {
   header {
     background-color: #141414;
-    font-size: 35px;
+    font-size: 25px;
     display: flex;
-    justify-content: space-evenly;
-    padding: 35px;
-    padding-right: 100px;
-    padding-left: 100px;
+    justify-content: start;
+    padding: 35px 0px 35px 0px;
   }
   
   a {
@@ -50,5 +48,11 @@
 
   .div-header {
     display: none;
+  }
+
+  .div-nav-header {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
