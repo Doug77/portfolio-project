@@ -24,7 +24,7 @@
   }
   
   .about {
-    width: 350px;
+    width: 300px;
     font-size: 35px;
   }
    
@@ -55,7 +55,7 @@
   }
   
   .my-photo {
-    width: 350px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 13px 7px 25px #232323;
   }
