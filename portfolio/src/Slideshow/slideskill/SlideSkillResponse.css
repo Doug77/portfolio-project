@@ -66,9 +66,10 @@
   }
   
   .current-knowledge {
-    margin-top: 55px;
+    margin-top: 50;
+    padding: 10px;
+    padding-left: 20px;
     font-size: 35px;
-    margin-left: 45px;
   }
   
   .div-content {
