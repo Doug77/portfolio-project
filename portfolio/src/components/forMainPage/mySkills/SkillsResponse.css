@@ -1,0 +1,27 @@
+@media (max-width: 400px) {
+  .skill-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .img-skill {
+    display: none;
+  }
+
+  .skill-list-ul {
+    width: 100%;
+    font-size: 40px;
+  }
+  
+  .title-list-skill {
+    margin-bottom: 35px;
+  }
+  
+  .list-item {
+    list-style: none;
+  }
+  
+}

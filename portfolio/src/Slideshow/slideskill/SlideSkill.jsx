@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { arrayData } from "../../data/db";
 import './SlideSkill.css';
+import './SlideSkillResponse.css';
 
 export default function SlideSkill() {
   const colors = ["JavaScript", "HTML" , "CSS", "React", "Redux", "Git", "GitHub"];

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { arrayDataProjects } from '../../../data/projects';
 import './Projects.css';
+import './ProjectsResponse.css';
 
 import codingProject from '../../../img/icon/codingmyproject.svg';
 

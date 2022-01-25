@@ -1,0 +1,47 @@
+@media (max-width: 400px) {
+  .main-page {
+    background-image: url('');
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+
+  .img-developer {
+    display: none;
+  }
+  
+  .greeting {
+    font-size: 40px;
+    color: darkgray;
+  }
+  
+  .my-name {
+    font-size: 60px;
+    color: lightgray;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hr-main {
+    width: 1000px;
+    border: 1px solid  #141414;
+  }
+  
+  .hr-center {
+    background-color: #333333;
+    display: none;
+    justify-content: center;
+  }
+
+  .div-content-main {
+    width: 100%;
+  }
+  
+}

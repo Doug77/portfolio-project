@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import HomeBtn from './HomeBtn';
 import './Header.css';
+import './HeaderResponse.css'
 
 export default function Header() {
   return (
