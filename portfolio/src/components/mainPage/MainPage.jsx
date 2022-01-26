@@ -25,7 +25,7 @@ export default function MainPage() {
             <MyTyped />
           </div>
           <div className="img-developer">
-            <img src={ developerImg } alt="developer-icon" width="800px"/>
+            <img className="img-developer-icon" src={ developerImg } alt="developer-icon" width="800px"/>
           </div>
         </div>
       </main>

@@ -9,7 +9,7 @@ export default function Skills() {
   return (
     <div className="skill-content" name="habilidades">
       <div className="img-skill">
-        <img src={ skillimg } alt="skill-icon" width="850px"/>
+        <img className="img-skill-icon-left" src={ skillimg } alt="skill-icon" width="850px"/>
       </div>
       <div className="skill-list-ul">
         <SlideSkill />
