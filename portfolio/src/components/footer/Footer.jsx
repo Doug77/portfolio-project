@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer className="content-footer">
-      <div className="icon-footer">
+      <div className="icon-footer" name="contato">
         <Link className="link-footer" to={{ pathname: "https://github.com/Doug77" }} target="_blank" >
           <img
             src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="github-icon"
