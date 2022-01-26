@@ -4,6 +4,7 @@ import MyTyped from '../../Typed/MyTyped';
 import AboutMe from '../forMainPage/aboutMe/AboutMe';
 import Skills from '../forMainPage/mySkills/Skills';
 import Projects from '../forMainPage/myProjects/Projects';
+import './MainResponse.css';
 
 import developerImg from '../../img/icon/codding.svg';
 
@@ -12,9 +13,9 @@ export default function MainPage() {
     <>
       <main className="main-page">
         <div className="main-content">
-          <div>
+          <div className="div-content-main">
             <span className="greeting">
-              Olá <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" alt="gif-hand" width="100px" />
+              Olá <img className="greeting-hand" src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" alt="gif-hand" width="100px" />
               , eu sou
             </span>
             <br />
@@ -23,8 +24,8 @@ export default function MainPage() {
             <span className="greeting">Desenvolvedor Front-end</span>
             <MyTyped />
           </div>
-          <div>
-            <img src={ developerImg } alt="developer-icon" width="800px"/>
+          <div className="img-developer">
+            <img className="img-developer-icon" src={ developerImg } alt="developer-icon" width="800px"/>
           </div>
         </div>
       </main>

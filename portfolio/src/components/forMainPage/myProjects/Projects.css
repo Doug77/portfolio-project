@@ -38,3 +38,7 @@
 .link-to-project {
   margin-top: 10px;
 }
+
+.img-content-projects {
+  transition: 0.3s;
+} 

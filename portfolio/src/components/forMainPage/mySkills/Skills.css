@@ -19,3 +19,7 @@
 .list-item {
   list-style: none;
 }
+
+.img-skill-icon-left {
+  transition: 0.3s;
+} 

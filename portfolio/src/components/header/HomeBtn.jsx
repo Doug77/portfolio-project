@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomeBtn.css'
+import './HomeBtnResponse.css';
 
 export default function HomeBtn() {
   return (
-    <div>
+    <div className="div-btn-home">
       <Link to="/home">
         <span className="brackets">{'{'}</span>
           dev-doug

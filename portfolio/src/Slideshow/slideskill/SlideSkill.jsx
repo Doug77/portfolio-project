@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { arrayData } from "../../data/db";
 import './SlideSkill.css';
+import './SlideSkillResponse.css';
 
 export default function SlideSkill() {
   const colors = ["JavaScript", "HTML" , "CSS", "React", "Redux", "Git", "GitHub"];
@@ -49,7 +50,12 @@ export default function SlideSkill() {
                     <div className="div-skill">
                       <div className="div-content">
                         <span className="span-skill"><b>{ skill }</b></span>
-                        <img src={ image } alt={ skill } width="45px" />
+                        <img
+                          className="img-skill-icon"
+                          src={ image }
+                          alt={ skill }
+                          width="45px"
+                        />
                       </div>
                     </div>
                   </div>
